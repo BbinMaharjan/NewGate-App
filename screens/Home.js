@@ -67,8 +67,8 @@ const Home = () => {
         <AddGates
           close={() => setIsOpen(false)}
           addItem={(item) => {
-            setItems([...items, item]);
-            console.log(item);
+            setItems([item, ...items]);
+            ///console.log(item);
           }}
         />
       </Modal>

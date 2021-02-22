@@ -11,10 +11,10 @@ const AddGates = (props) => {
   const [image, setImage] = useState("");
   const [description, setDescription] = useState("");
   const [category, setCategory] = useState(null);
-  const submit = (data) => {
-    addItem(data);
-    setIsOpen(false);
-  };
+  // const submit = (data) => {
+  //   addItem(data);
+  //   setIsOpen(false);
+  // };
 
   return (
     <View style={styles.addgates}>
